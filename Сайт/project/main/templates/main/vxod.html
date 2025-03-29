@@ -1,0 +1,31 @@
+{% extends "main/layout.html" %}
+
+{% block title %}
+{{ title }} 
+{% endblock %}
+
+
+{% block content %}
+
+
+
+<body>
+    <div class="container_vx"> 
+    
+        <div class="content" align="center">
+
+            <form action="/"method="post"class="auth-form">
+                <p>регистрация</p>
+                <input type="text" placeholder="имя">
+                <input type="password" placeholder="пароль">
+                <button>регистрация</button>
+            </form>
+            <div id="response"></div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+    
+</body>
+
+
+{% endblock %}
